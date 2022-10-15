@@ -18,9 +18,6 @@ public class MoreChatSuggestions {
         suggestions = new HashMap<>();
         suggestionConditions = new HashMap<>();
         lastSuggestionsWereConditional = true;
-
-        registerSuggestions(new Identifier("morechatsuggestions", "testsuggestions"), List.of("uwu", "owo"));
-        registerSuggestions(new Identifier("morechatsuggestions", "conditionaltestsuggestions"), List.of(":uwu:", ":owo:"), currentWord -> currentWord.startsWith(":"));
     }
 
     /**
