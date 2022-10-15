@@ -44,6 +44,11 @@ java {
     archivesBaseName = project.archives_base_name
 
     withSourcesJar()
+    withJavadocJar()
+}
+
+javadoc {
+    exclude("com.sarahisweird.morechatsuggestions.mixin")
 }
 
 jar {
@@ -62,19 +67,8 @@ publishing {
 
     repositories {
         maven {
-            name = "sarahMavenReleases"
+            name = "sarahMaven"
             url = "https://maven.sarahisweird.dev/releases"
-
-            credentials(PasswordCredentials) {
-                authentication {
-                    basic(BasicAuthentication)
-                }
-            }
-        }
-
-        maven {
-            name = "sarahMavenSnapshots"
-            url = "https://maven.sarahisweird.dev/snapshots"
 
             credentials(PasswordCredentials) {
                 authentication {
