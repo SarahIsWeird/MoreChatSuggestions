@@ -11,7 +11,7 @@
         "repo": "https://github.com/SarahIsWeird/MoreChatSuggestions"
     },
     "license": "WTFPL",
-    "icon": "assets/MoreChatSuggestions/icon.png",
+    "icon": "assets/morechatsuggestions/icon.png",
     "environment": "client",
     "entrypoints": {},
     "mixins": [
