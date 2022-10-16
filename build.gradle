@@ -70,10 +70,9 @@ publishing {
             name = "sarahMaven"
             url = "https://maven.sarahisweird.dev/releases"
 
-            credentials(PasswordCredentials) {
-                authentication {
-                    basic(BasicAuthentication)
-                }
+            credentials(PasswordCredentials)
+            authentication {
+                basic(BasicAuthentication)
             }
         }
     }
