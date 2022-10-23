@@ -3,6 +3,7 @@
     "minVersion": "0.8",
     "package": "com.sarahisweird.morechatsuggestions.mixin",
     "compatibilityLevel": "JAVA_17",
+    "refmap": "MoreChatSuggestions-refmap.json",
     "mixins": [
     ],
     "client": [
