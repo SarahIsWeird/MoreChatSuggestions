@@ -21,10 +21,10 @@ And this to your dependencies:
 
 ```groovy
 // build.gradle
-modImplementation("com.sarahisweird:morechatsuggestions:1.0")
+modImplementation("com.sarahisweird:morechatsuggestions:1.0.2")
 
 // build.gradle.kts
-modImplementation("com.sarahisweird", "morechatsuggestions", "1.0")
+modImplementation("com.sarahisweird", "morechatsuggestions", "1.0.2")
 ```
 
 ## Registering suggestions
