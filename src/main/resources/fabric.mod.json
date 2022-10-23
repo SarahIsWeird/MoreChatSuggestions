@@ -8,7 +8,9 @@
         "SarahIsWeird"
     ],
     "contact": {
-        "repo": "https://github.com/SarahIsWeird/MoreChatSuggestions"
+        "homepage": "https://github.com/SarahIsWeird/MoreChatSuggestions",
+        "issues": "https://github.com/SarahIsWeird/MoreChatSuggestions/issues",
+        "sources": "https://github.com/SarahIsWeird/MoreChatSuggestions"
     },
     "license": "WTFPL",
     "icon": "assets/morechatsuggestions/icon.png",
