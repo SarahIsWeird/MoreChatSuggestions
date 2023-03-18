@@ -1,6 +1,6 @@
 # MoreChatSuggestions
 
-MoreChatSuggestions is a small 1.19.2 FabricMC library that allows you to add autocomplete suggestions in the chat,
+MoreChatSuggestions is a small 1.19.4 FabricMC library that allows you to add autocomplete suggestions in the chat,
 outside of commands. It can also be utilized by third parties in other places.
 
 ## Installation
@@ -21,10 +21,10 @@ And this to your dependencies:
 
 ```groovy
 // build.gradle
-modImplementation("com.sarahisweird:morechatsuggestions:1.0.2")
+modImplementation("com.sarahisweird:morechatsuggestions:1.0.3")
 
 // build.gradle.kts
-modImplementation("com.sarahisweird", "morechatsuggestions", "1.0.2")
+modImplementation("com.sarahisweird", "morechatsuggestions", "1.0.3")
 ```
 
 ## Registering suggestions
