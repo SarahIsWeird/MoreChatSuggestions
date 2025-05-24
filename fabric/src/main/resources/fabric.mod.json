@@ -1,0 +1,28 @@
+{
+    "schemaVersion": 1,
+    "id": "morechatsuggestions",
+    "version": "${version}",
+    "name": "MoreChatSuggestions",
+    "description": "Adds autocomplete suggestions outside of commands.",
+    "authors": [
+        "SarahIsWeird"
+    ],
+    "contact": {
+        "homepage": "https://github.com/SarahIsWeird/MoreChatSuggestions",
+        "issues": "https://github.com/SarahIsWeird/MoreChatSuggestions/issues",
+        "sources": "https://github.com/SarahIsWeird/MoreChatSuggestions"
+    },
+    "license": "MIT",
+    "icon": "morechatsuggestions-icon.png",
+    "environment": "client",
+    "entrypoints": {},
+    "mixins": [
+        "morechatsuggestions.mixins.json"
+    ],
+    "depends": {
+        "fabricloader": ">=0.16.14",
+        "minecraft": "~1.19.2",
+        "java": ">=17",
+        "architectury": ">=6.6.92"
+    }
+}
